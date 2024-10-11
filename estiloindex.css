@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(24, 24, 24);
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+#blue{
+    width: 55rem;
+    position:absolute;
+    border: 0.5rem solid white;
+    border-radius: 25rem;
+}
+#asdf{
+    width: 50%;
+    color: rgba(0, 255, 255, 0);
+    opacity: 0;
+}
+.red{
+    width: 10rem;
+    position: relative;
+    border-radius: 3rem;
+    
+}
+
+.tra{
+    width: 10rem;
+    position: relative;
+    border-radius: 3rem;
+    opacity: 0;
+}
+
+.red:hover, #yellow:hover, .rib:hover, #ret:hover{
+    border: 0.2rem solid white;
+}
+
+#green:hover{
+    border: 0.2rem solid white;
+    border-radius: 9rem 9rem 9rem 9rem;
+}
+
+section{
+    border: 0.2rem solid rgba(255, 0, 0, 0);
+    top: 0;
+}
+
+#green{
+    width: 15rem;
+    position: relative;
+    margin-top: 3rem;
+    
+    
+}
+
+#ret{
+    width: 15rem;
+    position: relative;
+    border-radius: 3rem;
+}
+
+.rib{
+    width: 8rem;
+    position: relative;
+    margin-top: 5rem;
+    border-radius: 3rem;
+}
